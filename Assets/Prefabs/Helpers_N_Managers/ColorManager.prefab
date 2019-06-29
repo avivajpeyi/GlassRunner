@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5695844954421762886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5695844954421762884}
+  - component: {fileID: 5695844954421762887}
+  m_Layer: 0
+  m_Name: ColorManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5695844954421762884
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5695844954421762886}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 58.09999, y: 637.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5695844954421762887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5695844954421762886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98bcd4357e61a4c09a24d3ab26248a2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorIdx: 0
+  skyCol: {r: 0, g: 0, b: 0, a: 0}
+  groundCol: {r: 0, g: 0, b: 0, a: 0}
+  enemyCol: {r: 0, g: 0, b: 0, a: 0}
+  skyColors:
+  - {r: 0.9294118, g: 0.7294118, b: 0.9921569, a: 0}
+  - {r: 0.121568635, g: 0.11764707, b: 0.25490198, a: 0}
+  - {r: 0.11764707, g: 0.12941177, b: 0.16470589, a: 0}
+  - {r: 0.8196079, g: 0.25882354, b: 0.4039216, a: 0}
+  - {r: 0.6627451, g: 0.34509805, b: 0.3529412, a: 0}
+  - {r: 0.7254902, g: 0.85098046, b: 0.29803923, a: 0}
+  - {r: 0.43474105, g: 0.6792453, b: 0.29156286, a: 0}
+  - {r: 0.47908726, g: 0.31719473, b: 0.6792453, a: 0}
+  - {r: 1, g: 0.7176471, b: 0, a: 0}
+  - {r: 1, g: 0.41960785, b: 0.3764706, a: 0}
+  - {r: 0.30860624, g: 0.6886792, b: 0.5062442, a: 0}
+  GroundMaterial: {fileID: 2100000, guid: daa68a32eef103b498047437a683799e, type: 2}
+  groundColors:
+  - {r: 0.42352945, g: 0.8745099, b: 0.9490197, a: 0}
+  - {r: 0.08627451, g: 0.11764707, b: 0.12941177, a: 0}
+  - {r: 0.764151, g: 0.3670961, b: 0.09011213, a: 0}
+  - {r: 0.2509804, g: 0.24313727, b: 0.24705884, a: 0}
+  - {r: 0.5566038, g: 0.44370773, b: 0.51897174, a: 0}
+  - {r: 0.20000002, g: 0.21176472, b: 0.23137257, a: 0}
+  - {r: 0.3679245, g: 0.15792987, b: 0.33862293, a: 0}
+  - {r: 0.36209506, g: 0.745283, b: 0.5334393, a: 0}
+  - {r: 0.78431374, g: 1, b: 0, a: 0}
+  - {r: 0.7924528, g: 0.5891911, b: 0.30277678, a: 0}
+  - {r: 0.36986512, g: 0.33641866, b: 0.6792453, a: 0}
+  EnemyMaterial: {fileID: 2100000, guid: 9494caa7ee80f6e4385e191ee0f242e8, type: 2}
+  enemyColors:
+  - {r: 0.27450982, g: 0.27058825, b: 0.27450982, a: 0}
+  - {r: 0.9607844, g: 0.43921572, b: 0.19607845, a: 0}
+  - {r: 0.39607847, g: 0.56078434, b: 0.94117653, a: 0}
+  - {r: 0.41176474, g: 0.11764707, b: 0.79215693, a: 0}
+  - {r: 0.31764707, g: 0.39607847, b: 0.6117647, a: 0}
+  - {r: 0.9490197, g: 0.42352945, b: 0.8431373, a: 0}
+  - {r: 1, g: 0.35686275, b: 0.30980393, a: 0}
+  - {r: 0.6981132, g: 0.49471816, b: 0.33259168, a: 0}
+  - {r: 1, g: 0.21568628, b: 0, a: 0}
+  - {r: 1, g: 0.3764706, b: 0.63529414, a: 0}
+  - {r: 1, g: 0.50980395, b: 0.93333334, a: 0}
