@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MusicAssigner : MonoBehaviour
 {
 
+    public bool isMuted = false;
     public AudioClip gameAudio;
     AudioSource musicPlayer;
-
 
     // Start is called before the first frame update
     void Start()
@@ -15,11 +16,8 @@ public class MusicAssigner : MonoBehaviour
         musicPlayer = GetComponent<AudioSource>();
         musicPlayer.clip = gameAudio;
         musicPlayer.Play();
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

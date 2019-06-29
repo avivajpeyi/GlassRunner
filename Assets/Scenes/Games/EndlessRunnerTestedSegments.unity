@@ -3938,27 +3938,32 @@ PrefabInstance:
     - target: {fileID: 5308258180873772095, guid: 7ec68d40bfc764df5b49edfedc257c0c,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5308258180873772095, guid: 7ec68d40bfc764df5b49edfedc257c0c,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5308258180873772095, guid: 7ec68d40bfc764df5b49edfedc257c0c,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 405
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5308258180873772095, guid: 7ec68d40bfc764df5b49edfedc257c0c,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -50
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5308258180873772094, guid: 7ec68d40bfc764df5b49edfedc257c0c,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 5956910728261585069}
+    - target: {fileID: 5308258180873772094, guid: 7ec68d40bfc764df5b49edfedc257c0c,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MainMenu
       objectReference: {fileID: 0}
     - target: {fileID: 5308258180987011602, guid: 7ec68d40bfc764df5b49edfedc257c0c,
         type: 3}
@@ -4093,7 +4098,17 @@ PrefabInstance:
     - target: {fileID: 5308258180873772092, guid: 7ec68d40bfc764df5b49edfedc257c0c,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5308258180873772092, guid: 7ec68d40bfc764df5b49edfedc257c0c,
+        type: 3}
+      propertyPath: m_Name
+      value: BackButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 5308258179442068429, guid: 7ec68d40bfc764df5b49edfedc257c0c,
+        type: 3}
+      propertyPath: m_Text
+      value: MENU
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ec68d40bfc764df5b49edfedc257c0c, type: 3}

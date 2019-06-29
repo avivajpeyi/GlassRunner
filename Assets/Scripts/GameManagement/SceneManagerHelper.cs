@@ -10,8 +10,10 @@ using UnityEditor;
 public class SceneManagerHelper : MonoBehaviour
 {
 
+    [SerializeField]
     string TestedLevelSceneName = "EndlessRunnerTestedSegments";
-    string MainMenuSceneName = "StartMenu";
+    [SerializeField]
+    string MainMenuSceneName = "StartScreen";
     string ProcedurallyGeneratedSceneName = "EndlessRunnerProcedurallyGenerated";
     public GameObject LoadingCanvas;
 
