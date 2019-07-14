@@ -2379,8 +2379,6 @@ MonoBehaviour:
   movementSpeed: 1
   minMovementSpeed: 1
   maxMovementSpeed: 5
-  posBoundary: 11.5
-  negBoundary: -11.5
 --- !u!114 &170507944955408367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3822,7 +3820,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &170507945323705564
 Transform:
   m_ObjectHideFlags: 0
@@ -4130,8 +4128,6 @@ MonoBehaviour:
   movementSpeed: 1
   minMovementSpeed: 1
   maxMovementSpeed: 5
-  posBoundary: 11.5
-  negBoundary: -11.5
 --- !u!114 &170507945430627363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6684,7 +6680,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &170507945879467762
 Transform:
   m_ObjectHideFlags: 0
@@ -9229,8 +9225,6 @@ MonoBehaviour:
   movementSpeed: 1
   minMovementSpeed: 1
   maxMovementSpeed: 5
-  posBoundary: 11.5
-  negBoundary: -11.5
 --- !u!114 &170507946259373965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10758,8 +10752,6 @@ MonoBehaviour:
   movementSpeed: 1
   minMovementSpeed: 1
   maxMovementSpeed: 5
-  posBoundary: 11.5
-  negBoundary: -11.5
 --- !u!114 &170507946705973820
 MonoBehaviour:
   m_ObjectHideFlags: 0
