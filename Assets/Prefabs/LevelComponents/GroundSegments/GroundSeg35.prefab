@@ -1580,12 +1580,12 @@ PrefabInstance:
     - target: {fileID: 2998720846398386363, guid: 6d7023a476bc2416cb7c8d4fd54899ad,
         type: 3}
       propertyPath: minMovementSpeed
-      value: 3
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 2998720846398386363, guid: 6d7023a476bc2416cb7c8d4fd54899ad,
         type: 3}
       propertyPath: maxMovementSpeed
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d7023a476bc2416cb7c8d4fd54899ad, type: 3}
@@ -2310,12 +2310,12 @@ PrefabInstance:
     - target: {fileID: 2998720846398386363, guid: 6d7023a476bc2416cb7c8d4fd54899ad,
         type: 3}
       propertyPath: minMovementSpeed
-      value: 3
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 2998720846398386363, guid: 6d7023a476bc2416cb7c8d4fd54899ad,
         type: 3}
       propertyPath: maxMovementSpeed
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d7023a476bc2416cb7c8d4fd54899ad, type: 3}
@@ -3166,12 +3166,12 @@ PrefabInstance:
     - target: {fileID: 2998720846398386363, guid: 6d7023a476bc2416cb7c8d4fd54899ad,
         type: 3}
       propertyPath: minMovementSpeed
-      value: 3
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 2998720846398386363, guid: 6d7023a476bc2416cb7c8d4fd54899ad,
         type: 3}
       propertyPath: maxMovementSpeed
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d7023a476bc2416cb7c8d4fd54899ad, type: 3}
@@ -4515,6 +4515,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 1958891013373530, guid: 50c2b0c5c4d64eb499af91a6741150ea, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4241873253535476, guid: 50c2b0c5c4d64eb499af91a6741150ea, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -5019,6 +5023,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1958891013373530, guid: 50c2b0c5c4d64eb499af91a6741150ea, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4241873253535476, guid: 50c2b0c5c4d64eb499af91a6741150ea, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1
@@ -5396,6 +5404,10 @@ PrefabInstance:
     - target: {fileID: 1958891013373530, guid: 50c2b0c5c4d64eb499af91a6741150ea, type: 3}
       propertyPath: m_Name
       value: Wall (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1958891013373530, guid: 50c2b0c5c4d64eb499af91a6741150ea, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4241873253535476, guid: 50c2b0c5c4d64eb499af91a6741150ea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6038,12 +6050,12 @@ PrefabInstance:
     - target: {fileID: 2998720846398386363, guid: 6d7023a476bc2416cb7c8d4fd54899ad,
         type: 3}
       propertyPath: minMovementSpeed
-      value: 3
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 2998720846398386363, guid: 6d7023a476bc2416cb7c8d4fd54899ad,
         type: 3}
       propertyPath: maxMovementSpeed
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d7023a476bc2416cb7c8d4fd54899ad, type: 3}
