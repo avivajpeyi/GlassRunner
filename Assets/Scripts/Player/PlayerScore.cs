@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
+
 
 public class PlayerScore : MonoBehaviour
 {
@@ -71,6 +73,12 @@ public class PlayerScore : MonoBehaviour
         }
 
 
+    }
+
+
+    private void WriteScoreToFile()
+    {
+        
     }
 
 }
