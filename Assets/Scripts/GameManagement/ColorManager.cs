@@ -27,6 +27,12 @@ public class ColorManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        SetColor();
+    }
+
+
+    public void SetColor()
+    {
         colorIdx = Random.Range(0, skyColors.Length);
 
         GroundMaterial.SetColor("_Color", groundColors[colorIdx]);
@@ -43,5 +49,18 @@ public class ColorManager : MonoBehaviour
         groundCol = groundColors[colorIdx];
         enemyCol = enemyColors[colorIdx];
     }
+    
+    private float nextActionTime = 0.0f;
+    public float period = 0.6f;
+    
+    void Update()
+    {
+        if (Input.GetKeyDown("space"))
+        {
+            SetColor();
+        }
 
+    }
+    
+    
 }

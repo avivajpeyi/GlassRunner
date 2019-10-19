@@ -17,11 +17,19 @@ public class SceneManagerHelper : MonoBehaviour
     string ProcedurallyGeneratedSceneName = "EndlessRunnerProcedurallyGenerated";
     public GameObject LoadingCanvas;
 
+    
+    
+    
     public void PrivacyPolicy()
     {
         Application.OpenURL("https://avivajpeyi.github.io/privacy_policies/glass_runner_pp.html");
     }
 
+
+    public void Credits(string creditUrl)
+    {
+        Application.OpenURL(creditUrl);
+    }
 
     public void Reload()
     {
